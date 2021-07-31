@@ -1,7 +1,6 @@
 ---
 layout: default
-title: "Jeff's Blog"
-permalink: /
+
 ---
 ## The blog frontpage
 
