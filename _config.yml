@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote-theme: fongandrew/hydeout
+remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
 
