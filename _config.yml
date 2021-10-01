@@ -28,7 +28,7 @@ twitter_username:
 github_username:  JeffThomson
 
 # Build settings
-theme: jekyll-theme-hacker
+remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
 
