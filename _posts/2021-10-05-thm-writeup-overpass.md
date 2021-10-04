@@ -5,14 +5,14 @@ category: TryHackMe
 
 ---
 
-# Overpass Writeup
-https://tryhackme.com/room/overpassl
+TryHackMe URL: https://tryhackme.com/room/overpassl
 
-### Nmap scan
+As usual, start with an nmap scan
 `nmap 10.10.184.50`
 
-#### Results
-```Starting Nmap 7.91 ( https://nmap.org ) at 2021-09-23 18:42 EDT
+nmap results:
+```
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-09-23 18:42 EDT
 Nmap scan report for 10.10.184.50
 Host is up (0.27s latency).
 Not shown: 998 closed ports
@@ -31,7 +31,8 @@ While we explore the site let's run gobuster to ennumerate directories on the we
 `gobuster dir -u http://10.10.184.50 -w /usr/share/wordlists/dirb/big.txt -t10 `
 
 The about us page has a list of staff, including handles, save this as  a username list of probable accounts:
-```Ninja - Lead Developer
+```
+Ninja - Lead Developer
 Pars - Shibe Enthusiast and Emotional Support Animal Manager
 Szymex - Head Of Security
 Bee - Chief Drinking Water Coordinator
